@@ -80,6 +80,7 @@ function App() {
           <button className="symbol" onClick={()=> updateCalcInfo("+")}>+</button>
         </div>
        </div>
+       <div><h4>Designed by Deno's Romeo Acuity</h4></div>
     </div>
   
   );
