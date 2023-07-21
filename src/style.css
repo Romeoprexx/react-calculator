@@ -107,7 +107,10 @@ body{
     width: 50%;
   }
 
- .calculator-row {
-   width: 50%;
+  .calculator-row {
+    display: grid;
+    grid-template-columns: repeat(4, 4rem);
+    grid-template-rows: minmax(7rem, auto) repeat(4, 1rem);
+    justify-content: center;
   }
 }
