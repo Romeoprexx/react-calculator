@@ -106,4 +106,8 @@ body{
   .App {
     width: 50%;
   }
+
+ .calculator-row {
+   width: 50%;
+  }
 }
